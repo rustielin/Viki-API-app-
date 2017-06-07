@@ -48,8 +48,8 @@ def make_query():
 
 def count_hd():
     #keep requesting data while there are more pages to load 
-    global page_num, hd, nonhd
-    more =True 
+    global page_num, hd, nonhd, more
+
     while more:
         try:
             obj = make_request() 
