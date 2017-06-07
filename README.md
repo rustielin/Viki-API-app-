@@ -6,9 +6,9 @@ A simple script that queries Viki global TV service for HD videos. Written for P
 Usage:
 
 First install requests:
-``` pip install requests ```  
+``` pip install requests ``` 
 
-To run the script:  
+To run the script:
 ```python viki.py ```
 
 
