@@ -55,7 +55,8 @@ def count_hd():
             obj = make_request() 
         except:
             #in the case that Viki API blocks our connection for requesting too much data too quickly, stop for a while 
-            sleep(5) 
+            sleep(5)
+            continue
             
         #parse the JSON response 
         more = obj['more']
